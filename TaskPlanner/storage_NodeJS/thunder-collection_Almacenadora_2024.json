@@ -1,0 +1,142 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Almacenadora_2024",
+    "collectionId": "7359d2ef-0d96-4084-93ec-d1123773663f",
+    "dateExported": "2024-05-28T07:04:19.909Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "a811085c-fc04-4405-b6df-28efdb344a56",
+            "name": "Tarea",
+            "containerId": "",
+            "created": "2024-05-28T05:28:01.212Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "22a3e4c6-7801-44ae-b9db-aeae7d81df95",
+            "colId": "7359d2ef-0d96-4084-93ec-d1123773663f",
+            "containerId": "a811085c-fc04-4405-b6df-28efdb344a56",
+            "name": "Agregar",
+            "url": "/tarea/addTarea",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-28T05:28:01.214Z",
+            "modified": "2024-05-28T06:02:34.631Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjJjMmYzNDU2MzM5MjlhNGQzMTEzODAiLCJpYXQiOjE3MTQxNzI1OTQsImV4cCI6MTcxNDE4MzM5NH0.3_icPQN7u7zsg_Vdsp1lNgBSRUioa02uQSRmNYvAwzE"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Misael"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Lopez"
+                    },
+                    {
+                        "name": "taskName",
+                        "value": "Hola"
+                    },
+                    {
+                        "name": "taskDescription",
+                        "value": "Hola a todos"
+                    },
+                    {
+                        "name": "entryDate",
+                        "value": "2024-02-30"
+                    },
+                    {
+                        "name": "departureDate",
+                        "value": "2024-03-30"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "dfe37ce1-91a2-4af5-af84-5ea07aae41a8",
+            "colId": "7359d2ef-0d96-4084-93ec-d1123773663f",
+            "containerId": "a811085c-fc04-4405-b6df-28efdb344a56",
+            "name": "ListarCompletas",
+            "url": "/tarea/listaTareas",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-28T05:28:01.215Z",
+            "modified": "2024-05-28T05:58:34.445Z",
+            "headers": []
+        },
+        {
+            "_id": "a9da84ce-289e-4aa9-9308-37fc2bfdc6a6",
+            "colId": "7359d2ef-0d96-4084-93ec-d1123773663f",
+            "containerId": "a811085c-fc04-4405-b6df-28efdb344a56",
+            "name": "Update",
+            "url": "/tarea/update/6655737a3806cdf5f81610ae",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-05-28T05:28:01.217Z",
+            "modified": "2024-05-28T06:12:35.755Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjJjMmYzNDU2MzM5MjlhNGQzMTEzODAiLCJpYXQiOjE3MTQxNzI1OTQsImV4cCI6MTcxNDE4MzM5NH0.3_icPQN7u7zsg_Vdsp1lNgBSRUioa02uQSRmNYvAwzE"
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Bryan "
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Julian"
+                    },
+                    {
+                        "name": "taskName",
+                        "value": "Actaulizar"
+                    },
+                    {
+                        "name": "taskDescription",
+                        "value": "SE actualizo"
+                    },
+                    {
+                        "name": "entryDate",
+                        "value": "2024-01-21"
+                    },
+                    {
+                        "name": "departureDate",
+                        "value": "2024-01-22"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a1f333b2-ff78-4951-b7b2-d3163ae2968d",
+            "colId": "7359d2ef-0d96-4084-93ec-d1123773663f",
+            "containerId": "a811085c-fc04-4405-b6df-28efdb344a56",
+            "name": "Delete",
+            "url": "/tarea/deleteTarea/665575e0fd7e1909cff74bbc",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-05-28T05:28:01.218Z",
+            "modified": "2024-05-28T06:13:00.060Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    },
+    "ref": "9vQ6kYL2S7N7q-i3Zyem7eMSRXRlRsAiJkzt8K6kCvFvCHUm_OaypgeM8cRf4DxaACNLU7e7ebcjGVxOOAuS7w"
+}
